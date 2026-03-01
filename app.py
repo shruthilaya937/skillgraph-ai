@@ -4,6 +4,7 @@ import string
 import plotly.graph_objects as go
 import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -200,5 +201,6 @@ if st.button("🚀 Analyze Resumes"):
                 st.write(f"✔ {name} → {percent}% ({category})")
         else:
             st.write("No candidates shortlisted.")
+
 
         st.markdown("</div>", unsafe_allow_html=True)
