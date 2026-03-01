@@ -1,0 +1,5 @@
+streamlit
+PyPDF2
+nltk
+scikit-learn
+plotly
