@@ -3,3 +3,7 @@ PyPDF2
 nltk
 scikit-learn
 plotly
+sentence-transformers
+torch
+reportlab
+pandas
